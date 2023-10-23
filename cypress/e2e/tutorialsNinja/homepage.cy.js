@@ -12,5 +12,7 @@ describe('Qafox.com Homepage Test Suite', () => {
 
         //4. Verify that the page is displaying a visible search input field.
         cy.get('.input-lg').should('be.visible')
+
+        //test
     })
 })
