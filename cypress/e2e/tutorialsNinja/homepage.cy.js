@@ -14,5 +14,6 @@ describe('Qafox.com Homepage Test Suite', () => {
         cy.get('.input-lg').should('be.visible')
 
         //test
+        //test 2 with new branch
     })
 })
