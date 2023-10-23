@@ -6,8 +6,10 @@ describe('Kitchen Sink Test Suite', () => {
         cy.contains('type').click()
         cy.url().should('eq', 'https://example.cypress.io/commands/actions')
 
-        cy.get('.action-email').type('fake@email.com')
-        cy.get('.action-email').should('have.value', 'fake@email.com')
+        cy.get('.action-email').type('ffake@email.com')
+        cy.get('.action-email').should('have.value', 'ffake@email.com')
+
+        cy.get('.action-focus').focus().type('testPassworn')
 
     })
 })
