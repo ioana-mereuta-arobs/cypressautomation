@@ -1,0 +1,21 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open",
+    "cy:test:all": "npx cypress run",
+    "cy:test:homepageSpec": "npx cypress run --spec cypress/e2e/tutorialsNinja/homepage.cy.js",
+    "cy:test:homepageSpecHeadedInChrome": "npx cypress run --spec cypress/e2e/tutorialsNinja/homepage.cy.js --browser chrome --headed",
+    "cy:test:spec": "npx cypress run --spec cypress/e2e/myFirstTest.cy.js"
+  },
+  "author": "Ioana",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.3.2"
+  }
+
+
+}
